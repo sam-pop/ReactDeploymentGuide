@@ -1,4 +1,4 @@
-# GH-Pages/React Deployment Guide
+# React/gh-pages Deployment Guide
 
 This guide assumes you have a working React app (that was created using `create-react-app`) and you've already set up a github repo that you've pushed your app to.
 
