@@ -13,12 +13,12 @@ This guide assumes you have a working React app (that was created using `create-
 
     `"homepage": "http://<github-user-name>.github.io/<repo-name>"`
   - Under "scripts" add the "predeploy" and "deploy" like this:
-    ```
+  ```
   "scripts": {
   //...
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
-}
+  }
   ```
 
 3. On the _root_ directory of your react app run the following command: `npm run deploy`
