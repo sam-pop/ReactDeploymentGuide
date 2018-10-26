@@ -1,4 +1,4 @@
-# ReactDeploymentGuide
+# GH-Pages/React Deployment Guide
 
 This guide assumes you have a working React app (that was created using `create-react-app`) and you've already set up a github repo that you've pushed your app to.
 
@@ -54,7 +54,7 @@ git push
 
   If it doesn't - delete the branch and go through the process again.
 
-- Make sure that your folder structure is correct and follows this convention:
+- Make sure that your folder structure is correct and follows this basic convention:
 ```
 my-app
 ├── \node_modules
