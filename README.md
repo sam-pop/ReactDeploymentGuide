@@ -48,8 +48,19 @@ git push
 
 ### Troubleshooting:
 
-This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called `gh-pages` This branch should look like this (more or less):
+- This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called `gh-pages` This branch should look like this (more or less):
 
-[![branch screenshot](https://i.postimg.cc/qBhGmrVJ/Screenshot-from-2018-10-26-13-40-15.png)](https://postimg.cc/Cd0D1WxX)
+  [![branch screenshot](https://i.postimg.cc/qBhGmrVJ/Screenshot-from-2018-10-26-13-40-15.png)](https://postimg.cc/Cd0D1WxX)
 
-If it doesn't - delete the branch and go through the process again.
+  If it doesn't - delete the branch and go through the process again.
+
+- Make sure that your folder structure is correct and follows this convention:
+```
+my-app
+├── \node_modules
+├── \src
+├── \public
+├── README.md
+├── package.json
+└── .gitignore
+```
