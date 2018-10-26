@@ -12,7 +12,7 @@ This guide assumes you have a working React app (that was created using `create-
   - At the top-level:
 
     `"homepage": "http://<github-user-name>.github.io/<repo-name>"`
-  - Under "scripts" add the "predeploy" and "deploy" like this:
+  - Under "scripts" add "predeploy" and "deploy":
   ```
   "scripts": {
   //...
@@ -48,11 +48,11 @@ git push
 
 ### Troubleshooting:
 
-- This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called `gh-pages` This branch should look like this (more or less):
+- This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called **gh-pages** This branch should (more or less) look like this:
 
   [![branch screenshot](https://i.postimg.cc/qBhGmrVJ/Screenshot-from-2018-10-26-13-40-15.png)](https://postimg.cc/Cd0D1WxX)
 
-  If it doesn't - delete the branch and go through the process again.
+  If it doesn't - _delete the branch and go through the process again_.
 
 - Make sure that your folder structure is correct and follows this basic convention:
 ```
