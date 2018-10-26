@@ -27,7 +27,7 @@ This guide assumes you have a working React app (that was created using `create-
 
   [![run deploy screenshot](https://i.postimg.cc/WzPqWGjv/Screenshot-from-2018-10-26-13-15-21.png)](https://postimg.cc/ZBVq0yC7)
 
-To finish the deployment process you'll have to add,commit and push the changes to your github repo:
+To finish the deployment process you'll have to add, commit and push the changes to your github repo:
 
 ```
 git add .
@@ -57,9 +57,9 @@ git push
 - Make sure that your folder structure is correct and follows this basic convention:
 ```
 my-app
-├── \node_modules
-├── \src
-├── \public
+├── /node_modules
+├── /src
+├── /public
 ├── README.md
 ├── package.json
 └── .gitignore
