@@ -48,7 +48,7 @@ git push
 
 ### Troubleshooting:
 
-- This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called **gh-pages** This branch should (more or less) look like this:
+- This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called **gh-pages**. This branch should (more or less) look like this:
 
   [![branch screenshot](https://i.postimg.cc/qBhGmrVJ/Screenshot-from-2018-10-26-13-40-15.png)](https://postimg.cc/Cd0D1WxX)
 
