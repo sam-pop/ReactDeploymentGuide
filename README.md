@@ -9,17 +9,17 @@ This guide assumes you have a working React app (that was created using `create-
   [![gh-pages installed screenshot](https://i.postimg.cc/jS3d1HK7/Screenshot-from-2018-10-26-13-11-30.png)](https://postimg.cc/zyWrbRyz)
 
 2. Add the following lines to your **package.json** file (after making the necessary changes):
-  - At the top-level:
+    - At the top-level:
 
     `"homepage": "http://<github-user-name>.github.io/<repo-name>"`
-  - Under "scripts" add "predeploy" and "deploy":
-  ```
-  "scripts": {
-  //...
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-  }
-  ```
+    - Under "scripts" add "predeploy" and "deploy":
+    ```
+    "scripts": {
+    //...
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    }
+    ```
 
 3. On the _root_ directory of your react app run the following command: `npm run deploy`
 
