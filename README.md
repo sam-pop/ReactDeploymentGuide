@@ -6,7 +6,7 @@ This guide assumes you have a working React app (that was created using `create-
 
   Make sure the package is installed without any errors, your should see something similar to this in your terminal:
 
-  [![gh-pages installed screenshot](https://i.postimg.cc/jS3d1HK7/Screenshot-from-2018-10-26-13-11-30.png)](https://postimg.cc/zyWrbRyz)
+[![gh-pages installed screenshot](https://i.postimg.cc/9MTMg8sp/Screenshot-from-2018-10-31-11-02-41.png)](https://postimg.cc/FdrN7Zrd)
 
 2. Add the following lines to your **package.json** file (after making the necessary changes):
     - At the top-level:
