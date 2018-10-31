@@ -1,14 +1,14 @@
 {
-  "main.css": "/ReactDeploymentGuide/static/css/main.4f780294.chunk.css",
-  "main.js": "/ReactDeploymentGuide/static/js/main.114ec425.chunk.js",
-  "main.js.map": "/ReactDeploymentGuide/static/js/main.114ec425.chunk.js.map",
+  "main.css": "/ReactDeploymentGuide/static/css/main.0f9efaf8.chunk.css",
+  "main.js": "/ReactDeploymentGuide/static/js/main.c6859213.chunk.js",
+  "main.js.map": "/ReactDeploymentGuide/static/js/main.c6859213.chunk.js.map",
   "static/js/1.a700ff87.chunk.js": "/ReactDeploymentGuide/static/js/1.a700ff87.chunk.js",
   "static/js/1.a700ff87.chunk.js.map": "/ReactDeploymentGuide/static/js/1.a700ff87.chunk.js.map",
   "runtime~main.js": "/ReactDeploymentGuide/static/js/runtime~main.5a0bf5e5.js",
   "runtime~main.js.map": "/ReactDeploymentGuide/static/js/runtime~main.5a0bf5e5.js.map",
-  "static/media/logo.svg": "/ReactDeploymentGuide/static/media/logo.5d5d9eef.svg",
-  "static/css/main.4f780294.chunk.css.map": "/ReactDeploymentGuide/static/css/main.4f780294.chunk.css.map",
+  "static/media/anim.gif": "/ReactDeploymentGuide/static/media/anim.4d6bc5ca.gif",
+  "static/css/main.0f9efaf8.chunk.css.map": "/ReactDeploymentGuide/static/css/main.0f9efaf8.chunk.css.map",
   "index.html": "/ReactDeploymentGuide/index.html",
-  "precache-manifest.d1381328b7c5f89cad039b3aa7f62612.js": "/ReactDeploymentGuide/precache-manifest.d1381328b7c5f89cad039b3aa7f62612.js",
+  "precache-manifest.24593c61ec4e146ace45c749bd1fe887.js": "/ReactDeploymentGuide/precache-manifest.24593c61ec4e146ace45c749bd1fe887.js",
   "service-worker.js": "/ReactDeploymentGuide/service-worker.js"
 }
