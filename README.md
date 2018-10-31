@@ -41,24 +41,25 @@ This guide assumes you have a working React app (that was created using `create-
   git push
   ```
 
-Your app should be automatically deployed to GitHub pages at `http://<github-user-name>.github.io/<repo-name>`
-
+5. Your app should be automatically deployed to GitHub pages at `http://<github-user-name>.github.io/<repo-name>`
 ### Update
+
 
 In order to update your deployed app after making changes to your code you'll have to run `npm run deploy` followed by:
 ```
 git add .
 git commit -m 'gh-pages deployment'
 git push
-```
 
 ### Troubleshooting
 
 - This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called **gh-pages**. This branch should (more or less) look like this:
+```
 
   [![branch screenshot](https://i.postimg.cc/qBhGmrVJ/Screenshot-from-2018-10-26-13-40-15.png)](https://postimg.cc/Cd0D1WxX)
 
-  If it doesn't - _delete the branch and go through the process again_.
+  If it doesn't - _delete the branch_.
+  After deleting the branch create a new _remote_ branch named `gh-pages` on your repo and go through steps 3-5 again.
 
 - Make sure that your folder structure is correct and follows this basic convention:
   ```
