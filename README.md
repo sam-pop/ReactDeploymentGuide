@@ -25,7 +25,7 @@ This guide assumes you have a working React app (that was created using `create-
 
   Make sure the build process is completed without any errors, your should see something similar to this in your terminal:
 
-  [![run deploy screenshot]](https://i.postimg.cc/WzPqWGjv/Screenshot-from-2018-10-26-13-15-21.png)](https://postimg.cc/ZBVq0yC7)
+  [![run deploy screenshot](https://i.postimg.cc/WzPqWGjv/Screenshot-from-2018-10-26-13-15-21.png)](https://postimg.cc/ZBVq0yC7)
 
 To finish the deployment process you'll have to add, commit and push the changes to your github repo:
 
