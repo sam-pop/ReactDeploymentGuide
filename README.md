@@ -2,6 +2,9 @@
 
 This guide assumes you have a working React app (that was created using `create-react-app`) and you've already set up a github repo that you've pushed your app to.
 
+[Click here to jump to the TL;DR version](#tldr)
+
+## Instructions
 1. On the _root_ directory of your react app run the following command: `npm install gh-pages --save-dev`.
 
   Make sure the package is installed without any errors, your should see something similar to this in your terminal:
@@ -12,7 +15,9 @@ This guide assumes you have a working React app (that was created using `create-
     - At the top-level:
 
       `"homepage": "http://<github-user-name>.github.io/<repo-name>"`
+
     - Under "scripts" add "predeploy" and "deploy":
+
       ```
       "scripts": {
       //...
@@ -37,7 +42,7 @@ git push
 
 Your app should be automatically deployed to GitHub pages at `http://<github-user-name>.github.io/<repo-name>`
 
-### Note:
+### Update
 
 In order to update your deployed app after making changes to your code you'll have to run `npm run deploy` followed by:
 ```
@@ -46,7 +51,7 @@ git commit -m 'gh-pages deployment'
 git push
 ```
 
-### Troubleshooting:
+### Troubleshooting
 
 - This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called **gh-pages**. This branch should (more or less) look like this:
 
@@ -55,12 +60,43 @@ git push
   If it doesn't - _delete the branch and go through the process again_.
 
 - Make sure that your folder structure is correct and follows this basic convention:
+  ```
+  my-app
+  ├── /node_modules
+  ├── /src
+  ├── /public
+  ├── README.md
+  ├── package.json
+  └── .gitignore
+  ```
+
+## <a name="tldr"></a> TL;DR
+
+1. On _root_ folder: `npm install gh-pages --save-dev`
+
+2. Add to **package.json**:
+
+    - At the top-level:
+
+      `"homepage": "http://<github-user-name>.github.io/<repo-name>"`
+
+    - Under "scripts":
+
+      ```
+      "scripts": {
+      //...
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+      }
+      ```
+
+3. On _root_ folder: `npm run deploy`
+
+4. Add, commit, push:
 ```
-my-app
-├── /node_modules
-├── /src
-├── /public
-├── README.md
-├── package.json
-└── .gitignore
+git add .
+git commit -m 'gh-pages deployment'
+git push
 ```
+
+5. Your app is deployed to GitHub-Pages!
