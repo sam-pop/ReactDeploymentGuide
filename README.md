@@ -5,7 +5,7 @@ This guide assumes you have a working React app (that was created using `create-
 [Click here to jump to the TL;DR version](#tldr)
 
 ## Instructions
-1. On the _root_ directory of your react app run the following command: `npm install gh-pages --save-dev`.
+1. In the _root_ directory of your react app run the following command: `npm install gh-pages --save-dev`.
 
   Make sure the package is installed without any errors, your should see something similar to this in your terminal:
 
@@ -26,7 +26,7 @@ This guide assumes you have a working React app (that was created using `create-
       }
       ```
 
-3. On the _root_ directory of your react app run the following command: `npm run deploy`
+3. In the _root_ directory of your react app run the following command: `npm run deploy`
 
   Make sure the build process is completed without any errors, your should see something similar to this in your terminal:
 
@@ -72,7 +72,7 @@ git push
 
 ## <a name="tldr"></a> TL;DR
 
-1. On _root_ folder: `npm install gh-pages --save-dev`
+1. In the _root_ folder: `npm install gh-pages --save-dev`
 
 2. Add to **package.json**:
 
@@ -90,7 +90,7 @@ git push
       }
       ```
 
-3. On _root_ folder: `npm run deploy`
+3. In the _root_ folder: `npm run deploy`
 
 4. Add, commit, push:
 ```
