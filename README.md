@@ -5,11 +5,12 @@ This guide assumes you have a working React app (that was created using `create-
 [Click here to jump to the TL;DR version](#tldr)
 
 ## Instructions
+
 1. In the _root_ directory of your react app run the following command: `npm install gh-pages --save-dev`.
 
   Make sure the package is installed without any errors, your should see something similar to this in your terminal:
 
-[![gh-pages installed screenshot](https://i.postimg.cc/9MTMg8sp/Screenshot-from-2018-10-31-11-02-41.png)](https://postimg.cc/FdrN7Zrd)
+  [![gh-pages installed screenshot](https://i.postimg.cc/9MTMg8sp/Screenshot-from-2018-10-31-11-02-41.png)](https://postimg.cc/FdrN7Zrd)
 
 2. Add the following lines to your **package.json** file (after making the necessary changes):
     - At the top-level:
@@ -32,13 +33,13 @@ This guide assumes you have a working React app (that was created using `create-
 
   [![run deploy screenshot](https://i.postimg.cc/WzPqWGjv/Screenshot-from-2018-10-26-13-15-21.png)](https://postimg.cc/ZBVq0yC7)
 
-To finish the deployment process you'll have to add, commit and push the changes to your github repo:
+4. To finish the deployment process you'll have to add, commit and push the changes to your github repo:
 
-```
-git add .
-git commit -m 'gh-pages deployment'
-git push
-```
+  ```
+  git add .
+  git commit -m 'gh-pages deployment'
+  git push
+  ```
 
 Your app should be automatically deployed to GitHub pages at `http://<github-user-name>.github.io/<repo-name>`
 
@@ -69,6 +70,8 @@ git push
   ├── package.json
   └── .gitignore
   ```
+
+___
 
 ## <a name="tldr"></a> TL;DR
 
