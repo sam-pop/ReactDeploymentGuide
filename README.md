@@ -1,6 +1,6 @@
 # React/gh-pages Deployment Guide
 
-This guide assumes you have a working React app (that was created using `create-react-app`) and you've already set up a github repo that you've pushed your app to.
+This guide assumes you have a working React app (that was created using `create-react-app`) and you've already set up a GitHub repo that you've pushed your app to.
 
 [Click here to jump to the TL;DR version](#tldr)
 
@@ -33,7 +33,7 @@ This guide assumes you have a working React app (that was created using `create-
 
   [![run deploy screenshot](https://i.postimg.cc/WzPqWGjv/Screenshot-from-2018-10-26-13-15-21.png)](https://postimg.cc/ZBVq0yC7)
 
-4. To finish the deployment process you'll have to add, commit and push the changes to your github repo:
+4. To finish the deployment process you'll have to add, commit and push the changes to your GitHub repo:
 
   ```
   git add .
@@ -58,7 +58,7 @@ git push
 
   [![branch screenshot](https://i.postimg.cc/qBhGmrVJ/Screenshot-from-2018-10-26-13-40-15.png)](https://postimg.cc/Cd0D1WxX)
 
-  If it doesn't - _delete the branch_.
+- If after following the above steps you get the README.md file displayed on your GitHub pages instead of your app - _delete the gh-pages branch_.
   After deleting the branch create a new _remote_ branch named `gh-pages` on your repo and go through steps 3-5 again.
 
 - Make sure that your folder structure is correct and follows this basic convention:
