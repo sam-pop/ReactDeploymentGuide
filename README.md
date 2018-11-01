@@ -52,7 +52,7 @@ git commit -m 'gh-pages deployment'
 git push
 ```
 
-### Troubleshooting
+## Troubleshooting
 
 - This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called **gh-pages**. This branch should (more or less) look like this:
 
