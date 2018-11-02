@@ -123,4 +123,4 @@ Copy the SCRIPTS folder to your app _root_ folder, navigate to the SCRIPTS folde
 
 - For **Windows** users: `windows.bat` (double click the BAT file or run `windows.bat`)
 
-**Note:** If working with your console/terminal make sure your path is inside the SCRIPTS folder before running those scripts.
+**Note:** If working with your console/terminal make sure your path is inside the SCRIPTS folder before running the scripts.
