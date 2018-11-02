@@ -4,7 +4,13 @@ This guide assumes you have a working React app (that was created using `create-
 
 [Click here to jump to the TL;DR version](#tldr)
 
-## Instructions
+Table of Contents:
+- [Instructions](#instructions)
+- [Update](#update)
+- [Troubleshooting](#trouble)
+- [Scripts](#bonus)
+
+## <a name="instructions"></a>Instructions
 
 1. In the _root_ directory of your react app run the following command: `npm install gh-pages --save-dev`.
 
@@ -43,7 +49,7 @@ This guide assumes you have a working React app (that was created using `create-
 
 5. Your app should be automatically deployed to GitHub pages at `http://<github-user-name>.github.io/<repo-name>`
 
-### Update
+### <a name="update"></a>Update
 
 In order to update your deployed app after making changes to your code you'll have to run `npm run deploy` followed by:
 ```
@@ -52,7 +58,7 @@ git commit -m 'gh-pages deployment'
 git push
 ```
 
-## Troubleshooting
+## <a name="trouble"></a>Troubleshooting
 
 - This process (completed without any errors) should have automatically created a new _remote_ branch in your GitHub repo called **gh-pages**. This branch should (more or less) look like this:
 
@@ -104,3 +110,17 @@ git push
 ```
 
 5. Your app is deployed to GitHub-Pages!
+
+## <a name="bonus"></a> Bonus - Scripts!
+
+You can use the bash/batch scripts that are attached in the SCRIPTS folder to automate the redepolyment process after your initial successful deployment (update the deployed app).
+
+### How to use
+
+Copy the `SCRIPTS` folder to your app _root_ folder and run the appropriate script.
+
+- For **Mac/Linux** users: `sh mac_linux.sh`
+
+- For **Windows** users: `windows.bat` (Double click the BAT file or run `windows.bat`)
+
+If working with your console/terminal make sure your path is inside the SCRIPTS folder while using those scripts.
