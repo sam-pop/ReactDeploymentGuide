@@ -121,6 +121,6 @@ Copy the `SCRIPTS` folder to your app _root_ folder and run the appropriate scri
 
 - For **Mac/Linux** users: `sh mac_linux.sh`
 
-- For **Windows** users: `windows.bat` (Double click the BAT file or run `windows.bat`)
+- For **Windows** users: `windows.bat` (double click the BAT file or run `windows.bat`)
 
-If working with your console/terminal make sure your path is inside the SCRIPTS folder while using those scripts.
+**Note:** If working with your console/terminal make sure your path is inside the SCRIPTS folder while using those scripts.
