@@ -113,14 +113,14 @@ git push
 
 ## <a name="bonus"></a> Bonus - Scripts!
 
-You can use the bash/batch scripts that are attached in the SCRIPTS folder to automate the redepolyment process after your initial successful deployment (update the deployed app).
+You can use the bash/batch scripts that are attached in the SCRIPTS folder to automate the redeployment process after your initial successful deployment (update the deployed app).
 
 ### How to use
 
-Copy the `SCRIPTS` folder to your app _root_ folder and run the appropriate script.
+Copy the SCRIPTS folder to your app _root_ folder, navigate to the SCRIPTS folder and run the appropriate script.
 
 - For **Mac/Linux** users: `sh mac_linux.sh`
 
 - For **Windows** users: `windows.bat` (double click the BAT file or run `windows.bat`)
 
-**Note:** If working with your console/terminal make sure your path is inside the SCRIPTS folder while using those scripts.
+**Note:** If working with your console/terminal make sure your path is inside the SCRIPTS folder before running those scripts.
