@@ -117,7 +117,7 @@ You can use the bash/batch scripts that are attached in the SCRIPTS folder to au
 
 ### How to use
 
-Copy the SCRIPTS folder to your app _root_ folder, navigate to the SCRIPTS folder and run the appropriate script.
+Copy the [SCRIPTS](https://github.com/sam-pop/ReactDeploymentGuide/tree/master/SCRIPTS) folder to your app _root_ folder, navigate to the SCRIPTS folder and run the appropriate script.
 
 - For **Mac/Linux** users: `sh mac_linux.sh`
 
