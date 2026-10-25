@@ -1,7 +1,5 @@
 # React/gh-pages Deployment Guide
 
-> [Read the 'Medium' article](https://medium.com/p/525799daa726)
-
 This guide assumes you have a working React app (that was created using `create-react-app`) and you've already set up a GitHub repo that you've pushed your app to.
 
 [Click here to jump to the TL;DR version](#tldr)
